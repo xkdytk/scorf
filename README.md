@@ -15,7 +15,11 @@ pip install -r requirements.txt
 ```
 
 ## Data Preparation
-You can download the data to use scenes presented in the paper [here](https://drive.google.com/drive/folders/128yBriW1IG_3NJ5Rp7APSTZsJqdJdfc1).
+You can download the data to use scenes presented in the paper.
+```
+[Nerf Synthetic Dataset](https://www.kaggle.com/datasets/nguyenhung1903/nerf-synthetic-dataset)
+[Nerf Dataset](https://www.kaggle.com/datasets/sauravmaheshkar/nerf-dataset)
+```
 
 Put the example datasets in ./data. It should look like:
    ```
