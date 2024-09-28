@@ -1,5 +1,11 @@
 # scorf
 
+TETrack: Target-aware Token Emphasis for Visual Object Tracking
+
+<!--
+![TETrack_Framework](tracking/TETrack_network.png)
+-->
+
 ## Installation
 
 ```
