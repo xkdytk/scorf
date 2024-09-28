@@ -15,14 +15,14 @@ Download data for two example datasets: `lego` and `fern`
 bash download_example_data.sh
 ```
 
-To train a low-res `lego` NeRF:
-```
-python run_nerf.py --config configs/lego.txt
-```
-
 ---
 
-To train a low-res `fern` NeRF:
+To train NeRF on different datasets: 
+
 ```
-python run_nerf.py --config configs/fern.txt
+python run_nerf.py --config configs/{DATASET}.txt
 ```
+
+replace `{DATASET}` with `trex` | `horns` | `flower` | `fortress` | `lego` | etc.
+
+---
