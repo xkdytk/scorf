@@ -1,6 +1,6 @@
 # SCoRF
 
-TETrack: Target-aware Token Emphasis for Visual Object Tracking
+SCoRF: Single-stage convolutional neural radiance fields
 
 <!--
 ![TETrack_Framework](tracking/TETrack_network.png)
