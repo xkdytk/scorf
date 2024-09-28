@@ -44,7 +44,7 @@ Put the example datasets in ./data. It should look like:
 
 ## Running code
 
-To train SCoRF on datasets: 
+To train and test SCoRF on datasets: 
 
 ```
 python run_nerf.py --config configs/{DATASET}.txt
