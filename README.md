@@ -44,12 +44,20 @@ Put the example datasets in ./data. It should look like:
 
 ## Running code
 
-To train and test SCoRF on datasets: 
+To train SCoRF on datasets: 
 
 ```
-python scorf.py --config configs/{DATASET}.txt
+python train.py --config configs/{DATASET}.txt
+```
+
+To test SCoRF on datasets: 
+
+```
+python eval.py --config configs/{DATASET}.txt --ckpt result/{CHECKPOINT} --i_video
 ```
 
 replace `{DATASET}` with `fern` | `lego` | etc.
+
+replace `{CHECKPOINT}` with file path to use.
 
 
