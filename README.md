@@ -9,7 +9,7 @@ TETrack: Target-aware Token Emphasis for Visual Object Tracking
 ## Installation
 
 ```
-git clone [https://github.com/xkdytk/scorf.git]
+git clone https://github.com/xkdytk/scorf.git
 cd scorf
 pip install -r requirements.txt
 ```
