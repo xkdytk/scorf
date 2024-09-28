@@ -1,4 +1,4 @@
-# scorf
+# SCoRF
 
 TETrack: Target-aware Token Emphasis for Visual Object Tracking
 
@@ -17,9 +17,13 @@ pip install -r requirements.txt
 ## Data Preparation
 You can download the data to use scenes presented in the paper.
 
+---
+
 [Nerf Synthetic Dataset](http://www.kaggle.com/datasets/nguyenhung1903/nerf-synthetic-dataset/)
 
 [Nerf Dataset](http://www.kaggle.com/datasets/sauravmaheshkar/nerf-dataset)
+
+---
 
 Put the example datasets in ./data. It should look like:
 ```
@@ -40,15 +44,12 @@ Put the example datasets in ./data. It should look like:
 
 ## Running code
 
----
-
-To train NeRF on different datasets: 
+To train SCoRF on datasets: 
 
 ```
 python run_nerf.py --config configs/{DATASET}.txt
 ```
 
-replace `{DATASET}` with `trex` | `horns` | `flower` | `fortress` | `lego` | etc.
+replace `{DATASET}` with `fern` | `lego` | etc.
 
----
 
