@@ -47,7 +47,7 @@ Put the example datasets in ./data. It should look like:
 To train and test SCoRF on datasets: 
 
 ```
-python run_nerf.py --config configs/{DATASET}.txt
+python scorf.py --config configs/{DATASET}.txt
 ```
 
 replace `{DATASET}` with `fern` | `lego` | etc.
