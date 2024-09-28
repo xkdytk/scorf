@@ -8,12 +8,36 @@ cd nerf-pytorch
 pip install -r requirements.txt
 ```
 
-## Running code
-
+## Data Preparation
 Download data for two example datasets: `lego` and `fern`
 ```
 bash download_example_data.sh
 ```
+Put the example datasets in ./data. It should look like:
+   ```
+   ${TETrack_ROOT}
+    -- data
+        -- lasot
+            |-- airplane
+            |-- basketball
+            |-- bear
+            ...
+        -- got10k
+            |-- test
+            |-- train
+            |-- val
+        -- coco
+            |-- annotations
+            |-- train2017
+        -- trackingnet
+            |-- TRAIN_0
+            |-- TRAIN_1
+            ...
+            |-- TRAIN_11
+            |-- TEST
+   ```
+
+## Running code
 
 ---
 
@@ -27,16 +51,3 @@ replace `{DATASET}` with `trex` | `horns` | `flower` | `fortress` | `lego` | etc
 
 ---
 
-## Citation
-
-Thanks to the authors for their help in implementing the code:
-```
-@misc{lin2020nerfpytorch,
-  title={NeRF-pytorch},
-  author={Yen-Chen, Lin},
-  publisher = {GitHub},
-  journal = {GitHub repository},
-  howpublished={\url{https://github.com/yenchenlin/nerf-pytorch/}},
-  year={2020}
-}
-```
