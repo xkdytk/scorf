@@ -18,6 +18,7 @@ pip install -r requirements.txt
 You can download the data to use scenes presented in the paper.
 
 [Nerf Synthetic Dataset](http://www.kaggle.com/datasets/nguyenhung1903/nerf-synthetic-dataset/)
+
 [Nerf Dataset](http://www.kaggle.com/datasets/sauravmaheshkar/nerf-dataset)
 
 Put the example datasets in ./data. It should look like:
