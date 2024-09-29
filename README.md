@@ -2,8 +2,10 @@
 
 SCoRF: Single-stage convolutional neural radiance fields
 
-<!--
-![TETrack_Framework](tracking/TETrack_network.png)
+<img width="544" alt="summary" src="https://github.com/user-attachments/assets/f63e9b44-d25c-4938-9ada-0fc7f7b0271e">
+
+<img width="641" alt="model" src="https://github.com/user-attachments/assets/4d05e965-36d4-43c9-8cf6-15cc116b1b88">
+
 -->
 
 ## Installation
