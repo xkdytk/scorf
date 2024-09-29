@@ -1,0 +1,16 @@
+expname = fern_test
+basedir = ./result
+datadir = ./data/nerf_llff_data/fern/
+dataset_type = llff
+model = CNN
+
+factor = 8
+llffhold = 8
+
+N_rand = 1024
+N_samples = 128
+N_fine_samples = 0
+
+
+use_viewdirs = True
+raw_noise_std = 1e0

@@ -1,0 +1,20 @@
+expname = blender_paper_ship
+basedir = ./result
+datadir = ./data/nerf_synthetic/ship
+dataset_type = blender
+model = CNN
+
+no_batching = True
+
+use_viewdirs = True
+white_bkgd = True
+lrate_decay = 500
+
+N_samples = 128
+N_fine_samples = 0
+N_rand = 1024
+
+precrop_iters = 500
+precrop_frac = 0.5
+
+half_res = True

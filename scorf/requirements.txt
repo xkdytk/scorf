@@ -1,0 +1,12 @@
+imageio==2.21.3
+imageio-ffmpeg
+matplotlib
+configargparse
+tensorboard>=2.0
+tqdm
+opencv-python
+kornia
+scikit-image
+einops
+timm
+lpips
